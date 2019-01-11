@@ -10,10 +10,9 @@ class App extends React.Component {
     this.state = {
       pets: [],
       filters: {
-        
       }
     }
-  }
+  
   
    handleOnChangeType = event => {
     this.setState({
