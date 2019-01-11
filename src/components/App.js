@@ -17,7 +17,7 @@ class App extends React.Component {
   
   onChangeType = ({target: {value}}) => {
     this.setState({
-      filters: { ...this.state.filters, type: value } 
+      filters: { ...this.state.filters, type: event.target.value } 
     });
   }
 
